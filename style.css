@@ -42,7 +42,8 @@ body{
     width: 100%;
     cursor: pointer;  
 }
-.navmenu:focus{
+.navmenu:focus,
+.navHiddenBtn:focus{
     background-color: gray;
     padding: 10px;
 }
