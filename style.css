@@ -42,10 +42,12 @@ body{
     width: 100%;
     cursor: pointer;  
 }
-.navmenu:focus,
-.navHiddenBtn:focus{
+.navmenu:focus{
     background-color: gray;
     padding: 10px;
+}
+.navHiddenBtn:hover{
+    cursor: pointer;
 }
 .divBtn{
     top: 44px;
