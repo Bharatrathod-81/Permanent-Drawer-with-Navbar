@@ -68,6 +68,9 @@ p,hr{
     padding:0.5rem  0 2rem 0.5rem;
     background-color: white;
 }
+.Mail:nth-child(2){
+    font-size: 12px;
+}
 .navHiddenBtn{
     border: none;
     position: absolute;
