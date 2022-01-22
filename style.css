@@ -68,9 +68,6 @@ p,hr{
     padding:0.5rem  0 2rem 0.5rem;
     background-color: white;
 }
-.Mail:nth-child(2){
-    font-size: 5px;
-}
 .navHiddenBtn{
     border: none;
     position: absolute;
@@ -93,6 +90,10 @@ p,hr{
 @media screen and (max-width:572px){
     html{
         font-size: 11px;
+    }
+    .Mail:nth-child(2){
+        font-size: 5px;
+        font-weight: bold;
     }
 }
     
